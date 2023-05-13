@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <h2>Image Gallery</h2>
+
+    <div class="image-gallery-container">
+        <div class="images">
+            <div class="image" onclick="showImage(this);">
+                <img src="images/1.jpg" alt=""/>
+                <div class="title">Keron</div>
+            </div>
+
+            <div class="image" onclick="showImage(this);">
+                <img src="images/2.jpg" alt=""/>
+                <div class="title">surfing the web</div>
+            </div>
+
+            <div class="image" onclick="showImage(this);">
+                <img src="images/3.jpg" alt=""/>
+                <div class="title">surfing the web</div>
+            </div>
+
+            <div class="image" onclick="showImage(this);">
+                <img src="images/4.jpg" alt=""/>
+                <div class="title">surfing the web</div>
+            </div>
+
+            <div class="image" onclick="showImage(this);">
+                <img src="images/5.jpg" alt=""/>
+                <div class="title">surfing the web</div>
+            </div>
+
+            <div class="image" onclick="showImage(this);">
+                <img src="images/6.jpg" alt=""/>
+                <div class="title">surfing the web</div> 
+            </div>
+
+            <div class="image" onclick="showImage(this);">
+                <img src="images/7.jpg" alt=""/>
+                <div class="title">kali image</div>
+            </div>
+
+            <div class="image" onclick="showImage(this);">
+                <img src="images/8.jpg" alt=""/>
+                <div class="title">kali image</div>
+            </div>
+
+            <div class="image" onclick="showImage(this);">
+                <img src="images/9.jpg" alt=""/>
+                <div class="title">kali image</div>
+            </div>
+
+            <div class="image" onclick="showImage(this);">
+                <img src="images/10.jpg" alt=""/>
+                <div class="title">kali image</div>
+            </div>
+
+            <div class="image" onclick="showImage(this);">
+                <img src="images/11.jpg" alt=""/>
+                <div class="title">kali image</div>
+            </div>
+
+            <div class="image" onclick="showImage(this);">
+                <img src="images/12.jpg" alt=""/>
+                <div class="title">kali image</div>
+            </div>
+        </div>
+
+        <div class="lightbox">
+            <div class="image">
+                <img src="images/1.jpg" alt=""/>
+                <div class="title">Testing</div>
+
+                <div class="previous-btn">
+                    <i class="fas fa-chevron-left"></i>
+                </div>
+
+                <div class="next-btn">
+                    <i class="fas fa-chevron-right"></i>
+                </div>
+            </div>
+
+            <div class="options">
+                <a href="#" class="download-btn" download>
+                    <i class="fas fa-download"></i>
+                </a>
+
+                <div class="close-btn">
+                    <i class="fas fa-times"></i>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>
